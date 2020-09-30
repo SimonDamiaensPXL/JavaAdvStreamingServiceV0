@@ -13,8 +13,8 @@ import java.util.List;
 
 public class StreamingService {
 
-	private List<Account> accounts = new ArrayList<>();
-	private List<Content> contentList = new ArrayList<>();
+	private ArrayList<Account> accounts = new ArrayList<Account>();
+	private ArrayList<Content> contentList = new ArrayList<Content>();
 
 	public StreamingService() {
 		Movie the_incredibles = new Movie("The Incredibles", Rating.LITTLE_KIDS);
